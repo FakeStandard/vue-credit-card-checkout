@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Source+Code+Pro&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(64 67 79);
+    font-family: "Source Code Pro", monospace;
+    /* height: 100vh; */
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    letter-spacing: 2px;
+}
+
+.visa img {
+    height: 25px;
+    right: 40px;
+    top: 45px;
+}
+
+.chip img {
+    height: 35px;
+    left: 50px;
+    top: 110px;
+}
+
+.visa img,
+.chip img {
+    width: auto;
+    opacity: 0.7;
+}
+
+.imgCard {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+.inputCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.credit-card {
+    height: 270px;
+    width: 450px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #3f87a6, #161015);
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    letter-spacing: 3px;
+    /* transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8); */
+}
+
+.visa img,
+.chip img,
+.number,
+.name,
+.exp {
+    position: absolute;
+    color: whitesmoke;
+}
+
+.number {
+    left: 50px;
+    bottom: 65px;
+}
+
+.name {
+    left: 50px;
+    bottom: 35px;
+}
+
+.exp {
+    right: 40px;
+    bottom: 35px;
+}
+
+.code {
+    padding: 0 20px 0 0;
+}
